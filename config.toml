@@ -35,16 +35,22 @@ publishDir = "../docs"
     weight = 1
     parent = "dropdown"
 [[menu.main]]
-    name = "2a. Edicio (2018)"
+    name = "2a. Edicio (2018) -eliminar?-"
     pre = "<i class='now-ui-icons files_paper'></i>"
     url = "/2018/template"
     weight = 2
     parent = "dropdown"
 
 [[menu.main]]
-    name = "Notícies"
-    pre = "<i class='now-ui-icons ui-1_calendar-60'></i>"
-    url = "/post"
+    name = "Col·laboradors"
+    pre = "<i class='now-ui-icons objects_spaceship'></i>"
+    url = "/sponsors"
+    weight = 5
+
+[[menu.main]]
+    name = "Fotos i Vídeos"
+    pre = "<i class='now-ui-icons media-1_camera-compact'></i>"
+    url = "/media"
     weight = 5
 
 
